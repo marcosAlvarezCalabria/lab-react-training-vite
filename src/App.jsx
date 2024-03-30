@@ -3,11 +3,19 @@ import React from "react";
 import "./App.css";
 import IdCard from "./components/idCard/IdCard";
 import Greetings from "./components/Greetings/Greetings";
+import Random from "./components/Random/Random";
 
 function App() {
   return (
     <div className="App">
       <h1> LAB | React Training</h1>
+      <Random min = {5} max = {10}></Random>
+
+
+
+
+
+
       <IdCard
   lastName='Doe'
   firstName='John'
