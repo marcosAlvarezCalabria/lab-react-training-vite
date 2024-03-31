@@ -14,7 +14,7 @@ function CreditCard({type, number, expirationYear, expirationMonth, bank, owner,
             <div className="typeCard">
                 <p>{type}</p>
             </div>
-            <div className="numberCard">..........{number.slice(number.length - 4 , number.length)}
+            <div className="numberCard"><i className="fa-solid fa-ellipsis"></i>{number.slice(number.length - 4 , number.length)}
             </div>
             <div>
                 <div className="expires d-flex"><p>{formatDate(expirationMonth.toString(),expirationYear.toString())}</p> <p>{bank}</p></div>
