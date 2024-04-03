@@ -9,16 +9,30 @@ import CreditCard from "./components/CreditCard/CreditCard";
 import Rating from "./components/Rating/Rating";
 import DriverCard from "./components/DriverCard/DriverCard";
 import LikeButton from "./components/LikeButton/LikeButton";
+import ClickablePicture from "./components/ClickablePicture/ClickablePicture";
+import { useState } from "react";
 
 
 
 
 function App() {
+  const [boxes, setBoxes] = useState(0) 
+  
+  
+
   return (
     <div className="App">
       <h1> LAB | React Training</h1>
 
-      <LikeButton/>
+      <ClickablePicture
+  img="src\assets\images\glasses1.png"
+  imgClicked="https://si.wsj.net/public/resources/images/BN-TY647_37gql_OR_20170621052140.jpg?width=620&height=428" 
+/>
+
+
+      <hr />
+
+      <LikeButton />
 
 
       <DriverCard
@@ -95,7 +109,7 @@ function App() {
 />
 
       <hr />
-      <BoxColor r = {120} g= {30} b= {100}/>
+      <BoxColor r = {220} g= {320} b= {100}/>
       <hr />
       <Random min={5} max={10}></Random>
       <hr/>
