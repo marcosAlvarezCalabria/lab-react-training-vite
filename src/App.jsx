@@ -13,6 +13,7 @@ import ClickablePicture from "./components/ClickablePicture/ClickablePicture";
 import Dice from "./components/Dice/Dice";
 import Carousel from "./components/Carousel/Carousel";
 import NumbersTable from "./components/NumbersTable/NumbersTable";
+import FaceBook from "./components/FaceBook/FaceBook";
 import { useState } from "react";
 
 
@@ -26,11 +27,14 @@ function App() {
     <div className="App">
       <h1> LAB | React Training</h1>
 
+     
+     <FaceBook/>
 
 
-      <div className="container
-      "><NumbersTable limit={10}/>
-      </div>
+
+      
+      <NumbersTable limit={20}/>
+      
 
       <Carousel
   images={[
