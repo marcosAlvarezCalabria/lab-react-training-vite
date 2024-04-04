@@ -12,6 +12,7 @@ import LikeButton from "./components/LikeButton/LikeButton";
 import ClickablePicture from "./components/ClickablePicture/ClickablePicture";
 import Dice from "./components/Dice/Dice";
 import Carousel from "./components/Carousel/Carousel";
+import NumbersTable from "./components/NumbersTable/NumbersTable";
 import { useState } from "react";
 
 
@@ -24,6 +25,12 @@ function App() {
   return (
     <div className="App">
       <h1> LAB | React Training</h1>
+
+
+
+      <div className="container
+      "><NumbersTable limit={10}/>
+      </div>
 
       <Carousel
   images={[

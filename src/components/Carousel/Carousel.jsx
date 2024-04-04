@@ -3,7 +3,7 @@ import { useState } from "react";
 function Carousel ({images}){
     
     const [indexArray, setIndexArray] = useState(0)
-console.log(indexArray)
+
     const handleClickRight = () => {
          setIndexArray(prevIndexArray=> (indexArray +1) % images.length)
           //siempre da de resto el numero por el que lo dividas hasta llegar a un numero dibisible que entonces dara cero 
