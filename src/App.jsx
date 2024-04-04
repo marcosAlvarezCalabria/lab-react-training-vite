@@ -10,19 +10,22 @@ import Rating from "./components/Rating/Rating";
 import DriverCard from "./components/DriverCard/DriverCard";
 import LikeButton from "./components/LikeButton/LikeButton";
 import ClickablePicture from "./components/ClickablePicture/ClickablePicture";
+import Dice from "./components/Dice/Dice";
 import { useState } from "react";
-
-
 
 
 function App() {
   const [boxes, setBoxes] = useState(0) 
+  const [imageDice , setImageDice] = useState(false)
   
-  
+
 
   return (
     <div className="App">
       <h1> LAB | React Training</h1>
+      <div><Dice></Dice></div>
+
+      
 
       <ClickablePicture
   img="src\assets\images\glasses1.png"

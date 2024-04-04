@@ -11,7 +11,7 @@ function DriverCard ({name, rating, img, car}){
     <div className="col-md-8">
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
-        <h4><Rating children = {rating} /></h4>
+        <h4><Rating children={rating} /></h4>
         <p className="card-text">{car.model}-{car.licensePlate}</p>
        
       </div>

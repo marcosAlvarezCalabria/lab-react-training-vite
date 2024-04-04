@@ -12,7 +12,7 @@ function ClickablePicture ({img, imgClicked}){
 
     return (
 
-      <div className="position-relative">
+      <div className="">
         <img
          className="imgClickable"
          role="button"
@@ -20,7 +20,7 @@ function ClickablePicture ({img, imgClicked}){
          src ={imgClicked}>
         </img>    
         <img
-        className={ `imgGlass ${isClicked ? "displayNone" : " "}`}
+        className={ `imgGlass ${isClicked ? "displayNone" : ""}`}
          role="img"
          src ={img}>  
          </img>
