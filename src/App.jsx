@@ -46,11 +46,11 @@ function App() {
 />
       <div><Dice></Dice></div>
 
-      <ClickablePicture
+      <div><ClickablePicture
   img="src\assets\images\glasses1.png"
   imgClicked="https://si.wsj.net/public/resources/images/BN-TY647_37gql_OR_20170621052140.jpg?width=620&height=428" 
 />
-
+</div>
 
       <hr />
 

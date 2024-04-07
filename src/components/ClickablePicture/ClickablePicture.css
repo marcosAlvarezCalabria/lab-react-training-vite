@@ -1,14 +1,16 @@
 .imgClickable {
-    position:relative;
+    
     width: 40%;
-    z-index: 0;
+   
 }
 .imgGlass {
     position: absolute;
-    top: 220px;
-    left: calc(50% - 13px);
-    width: 10%;
-    z-index: 1;
+   
+    left: calc(51% - 40px);
+    top:110px;
+    width: 8%;
+   
+   
     height: 20px;
 }
 .displayNone {

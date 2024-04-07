@@ -12,7 +12,7 @@ function ClickablePicture ({img, imgClicked}){
 
     return (
 
-      <div className="">
+      <div className="position-relative">
         <img
          className="imgClickable"
          role="button"

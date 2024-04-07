@@ -19,7 +19,7 @@ function Dice(){
 
     const handleClick = () => {
         const diceImages = [dice0, dice1, dice2, dice3, dice4, dice5, dice6]
-        const randomNumDice = Math.floor(Math.random()* (6 - 0) + 0)
+        const randomNumDice = Math.floor(Math.random()* (6 - 1) + 1)
         setTimeout(() => { setImage( prevImage => diceImages[randomNumDice] )},1000)
         setImage( prevImage => diceImages[0] )
  
